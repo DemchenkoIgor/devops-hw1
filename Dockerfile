@@ -3,4 +3,4 @@ RUN apk update \
     apk upgrade \
     apk add git
 
-ENTRYPOINT ["git"]
+ENTRYPOINT ["/bin/ping"]
